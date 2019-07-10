@@ -8,9 +8,9 @@ import org.springframework.data.mongodb.repository.config.EnableReactiveMongoRep
 @EnableMongoAuditing
 @EnableReactiveMongoRepositories
 @SpringBootApplication
-public class SprignBootLearingApplication {
+public class SpringBootLearningApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SprignBootLearingApplication.class, args);
+		SpringApplication.run(SpringBootLearningApplication.class, args);
 	}
 }
